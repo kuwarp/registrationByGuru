@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta http-equiv="refresh" content="5"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/cascade.css">
+      <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+        
+    <title>Login</title>
+</head>
+
+<body>
+
+  
+{{!-- {{>nav}} --}}
+ 
+    <div class="main">
+  
+        <div class="title">
+            <h1>Welcome to login Page</h1>
+        </div>
+  
+        <div class="box">
+            <h1> Login Form</h1>
+
+            <form  action="/login" method="POSt">
+                <!-- user Section -->
+                <div class="email">
+                    <input type="email" name="email" autocomplete="off" required>
+
+                    <label> username</label>
+
+                </div>
+
+                <!-- Password Section -->
+
+                <div class="password">
+                    <input type="password" name="password" autocomplete="off" required>
+
+                    <label> Password</label> 
+                </div> 
+
+                <input class="button" type="submit" value="Login">
+
+                <h3>not registered? <a href="/register" target="_blank">sign up</a></h3>
+<br>
+                <hr>
+                <h2>or signing with?</h2>
+
+                {{!-- <div class="i">
+                <li class="nav-item">
+                    <a class="nav-link" href="#" title=""
+                        target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i></a> --}}
+
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html> 

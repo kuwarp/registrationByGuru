@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/registration.css">
+    <title>Registration</title>
+</head>
+
+<body>
+    <img src="/images/logo.svg" alt="">
+    <marquee behavior="justify" direction="left"> <b>Hurry Up few Seats left.........✔️✔️✔️</b></marquee>
+    <div class="box">
+        <div class="title">Registration form</div>
+        <div class="main">
+
+            <form action="/register" method="POST">
+                <div class="user-details">
+
+                    <div class="entry">
+                        <span class="u-entry">Name:</span>
+                        <input type="text" placeholder="enter your name" name="uname">
+                    </div>
+
+                    <div class="entry">
+                        <span class="u-entry">E-mail*:</span>
+                        <input type="email" placeholder="enter your E-mail"name="email">
+                    </div>
+                    <div class="entry">
+                        <span class="u-entry">Create-username:</span>
+                        <input type="text" placeholder="Please create a awesome username" name="username">
+                    </div>
+                    <div class="entry">
+                        <span class="u-entry">password*:</span>
+                        <input type="password"  minlength="6" maxlength="12" placeholder="enter your password" name="password">
+                    </div>
+                    <div class="entry">
+                        <span class="u-entry">confirm password*:</span>
+                        <input type="password" minlength="6" maxlength="12" placeholder="Re-enter your password"name="confirm">
+                    </div>
+
+                    {{!-- button Code --}}
+                    <div class="button">
+                        <div class="button1">
+                            <input type="reset" value="RESET">
+                        </div>
+                        <div class="button2">
+
+                            <input type="submit"  value="SIGN-UP" >
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </form>
+
+        </div>
+    </div>
+</body>
+
+</html>

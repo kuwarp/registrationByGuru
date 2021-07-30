@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+}
+.image{
+padding: 2%;
+position:relative;
+justify-content:space-between;
+display:flex;
+flex-wrap:wrap-reverse;
+border-color: black;
+}
+
+ .image.python{
+    width: 2%;
+}
+
+
+
+
+/* 
+@media(max-width:300px)
+{
+    image{
+  max-width: 200px;
+    }
+} */
